@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0E3B84276C187C00A1D1FD /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E3B82276C187C00A1D1FD /* Dados.swift */; };
+		3A0E3B85276C187C00A1D1FD /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E3B83276C187C00A1D1FD /* Viagem.swift */; };
+		3A0E3B91276C18B100A1D1FD /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E3B90276C18B100A1D1FD /* viagens.json */; };
+		3A0E3B93276C36FC00A1D1FD /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E3B92276C36FC00A1D1FD /* Mapa.swift */; };
 		3A4CE3A9276AF38F0083F8C2 /* alura_viagensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CE3A8276AF38F0083F8C2 /* alura_viagensApp.swift */; };
 		3A4CE3AB276AF38F0083F8C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4CE3AA276AF38F0083F8C2 /* ContentView.swift */; };
 		3A4CE3AD276AF3990083F8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4CE3AC276AF3990083F8C2 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A0E3B82276C187C00A1D1FD /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		3A0E3B83276C187C00A1D1FD /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		3A0E3B90276C18B100A1D1FD /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = viagens.json; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/BackupDev/Alura/viagens.json"; sourceTree = "<group>"; };
+		3A0E3B92276C36FC00A1D1FD /* Mapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
 		3A4CE3A5276AF38F0083F8C2 /* alura-viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alura-viagens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4CE3A8276AF38F0083F8C2 /* alura_viagensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alura_viagensApp.swift; sourceTree = "<group>"; };
 		3A4CE3AA276AF38F0083F8C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0E3B81276C187C00A1D1FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E3B82276C187C00A1D1FD /* Dados.swift */,
+				3A0E3B83276C187C00A1D1FD /* Viagem.swift */,
+			);
+			name = Models;
+			path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/BackupDev/Alura/Models";
+			sourceTree = "<group>";
+		};
 		3A4CE39C276AF38F0083F8C2 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				3A4CE3A8276AF38F0083F8C2 /* alura_viagensApp.swift */,
+				3A0E3B90276C18B100A1D1FD /* viagens.json */,
+				3A0E3B81276C187C00A1D1FD /* Models */,
 				3A4CE3AA276AF38F0083F8C2 /* ContentView.swift */,
 				3A4CE3AC276AF3990083F8C2 /* Assets.xcassets */,
 				3A4CE3AE276AF3990083F8C2 /* Preview Content */,
+				3A0E3B92276C36FC00A1D1FD /* Mapa.swift */,
 			);
 			path = "alura-viagens";
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4CE3B0276AF3990083F8C2 /* Preview Assets.xcassets in Resources */,
+				3A0E3B91276C18B100A1D1FD /* viagens.json in Resources */,
 				3A4CE3AD276AF3990083F8C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E3B85276C187C00A1D1FD /* Viagem.swift in Sources */,
 				3A4CE3AB276AF38F0083F8C2 /* ContentView.swift in Sources */,
+				3A0E3B84276C187C00A1D1FD /* Dados.swift in Sources */,
 				3A4CE3A9276AF38F0083F8C2 /* alura_viagensApp.swift in Sources */,
+				3A0E3B93276C36FC00A1D1FD /* Mapa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
